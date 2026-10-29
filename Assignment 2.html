@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#home" class="logo">MyPortfolio</a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="intro">Hey, Welcome to my Profile</p>
+            <h1>Hi, I'm <span>Shivansh Singh</span></h1>
+            <h2>Computer Science Student</h2>
+            <p>
+                I am passionate about technology, web development,gaming,
+                programming, and cybersecurity.
+            </p>
+            <a href="#about" class="btn">Explore My Portfolio</a>
+        </div>
+
+        <div class="hero-image">
+            <img
+        
+            >
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-card">
+            <h3>About Me</h3>
+            <p>
+                I am a Computer Science student interested in learning
+                new technologies and developing creative solutions.
+                My interests include HTML, CSS, Python, and cybersecurity.
+                I aim to build useful, secure, and user-friendly websites.
+            </p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My Technical Skills</h2>
+
+        <table class="skills-table">
+            <thead>
+                <tr>
+                    <th>S. No.</th>
+                    <th>Technology</th>
+                    <th>Category</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>HTML</td>
+                    <td>Web Development</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CSS</td>
+                    <td>Web Development</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Python</td>
+                    <td>Programming</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Linux</td>
+                    <td>Operating System</td>
+                    <td>Learning</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Cybersecurity</td>
+                    <td>Security</td>
+                    <td>Learning</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-container">
+            <article class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A personal website created using HTML and external CSS
+                    to showcase my skills and interests.
+                </p>
+                <span class="tag">HTML + CSS</span>
+            </article>
+
+            <article class="project-card">
+                <h3>Python Programs</h3>
+                <p>
+                    A collection of beginner Python programs to practise
+                    programming logic and problem-solving.
+                </p>
+                <span class="tag">Python</span>
+            </article>
+
+            <article class="project-card">
+                <h3>Cybersecurity Learning</h3>
+                <p>
+                    Learning about Linux commands, network security,
+                    and safe computing practices.
+                </p>
+                <span class="tag">Cybersecurity</span>
+            </article>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-text">
+            Have a question or want to connect? Fill out the form below.
+        </p>
+
+        <form class="contact-form" action="#contact" method="get">
+            <label for="name">Full Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+            >
+
+            <label for="email">Email Address:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="subject">Subject:</label>
+            <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter the subject"
+                required
+            >
+
+            <label for="message">Your Message:</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn">Submit Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Shivansh Singh | Personal Portfolio</p>
+        <p>Designed with External CSS and HTML</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
+
+</body>
+</html>
